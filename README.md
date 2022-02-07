@@ -3,7 +3,6 @@
 This repository is dedicated to Sary Warehouse assessment project, where the client wants an app that facilitates main inventory system functions.
 
 The app screens structue is the following:
-
                         Transansaction Screen (Main)
                                     |
                                     |
