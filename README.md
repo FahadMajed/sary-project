@@ -12,7 +12,13 @@ to run the app on your local machine, copy the github repo link and create new p
 in the terminal, locate to the project directory, and then type: flutter run.
   
 the app will now operate smoothley.
-  
+
+App main functionalities:
+- Add/ Delete Items
+- Add/ Delete Transactions
+- Filter (Acs) Transactions by: Date, Quanitty, Inbound/ Outbound
+- Search Items and Transactions by item name
+
 to create a new transaction, tap on (Send) button or (Recieve), select the item, and then specify the quantity and bound date, hit Add Transaction to complete the process. the transaction will now be available on the main screen.
 
 to add an item, tap on the top-right icon on the main screen, then fill out the form, and select a picture from your gallery, then hit add item.
@@ -33,9 +39,5 @@ to add an item, tap on the top-right icon on the main screen, then fill out the 
 # (5) Main Screen - 2
 ![alt text](https://drive.google.com/file/d/1OpqYJrJWgBrO9ccW1CThj6Kps6rQskRx/view?usp=sharing)
 
-App main functionalities:
-- Add/ Delete Items
-- Add/ Delete Transactions
-- Filter (Acs) Transactions by: Date, Quanitty, Inbound/ Outbound
-- Search Items and Transactions by item name
+
   
