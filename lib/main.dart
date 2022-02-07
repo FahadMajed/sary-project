@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:sary_project/constants/constants.dart';
 import 'package:sary_project/models/transaction.dart';
@@ -9,7 +8,6 @@ import 'package:sary_project/screens/transactions_screen.dart';
 import 'package:sary_project/screens/txn_details_screen.dart';
 
 import 'models/item.dart';
-import 'models/services.dart';
 
 late Box<Transaction> transactionBox;
 late Box<Item> itemsBox;
