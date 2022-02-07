@@ -27,7 +27,7 @@ to add an item, tap on the top-right icon on the main screen, then fill out the 
 <img width="564" alt="main scren" src="https://user-images.githubusercontent.com/59338335/152837250-9114f007-1f65-482d-a1ed-8e50a4ff31a5.png">
 
 ## (2) Select Item Screen
-<img width="546" alt="items" src="https://user-images.githubusercontent.com/59338335/152838660-95bd4f7e-51cb-4a77-a2b6-077beca2a301.png">
+<img width="553" alt="send item" src="https://user-images.githubusercontent.com/59338335/152838676-601cfd48-eed0-40a4-9d35-e0ef5055030f.png">
 
 ## (3) Add Transaction Screen
 <img width="576" alt="add txn" src="https://user-images.githubusercontent.com/59338335/152838702-baa9203a-a4fb-4810-a0e2-d7c55151956f.png">
