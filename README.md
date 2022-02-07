@@ -3,20 +3,8 @@
 This repository is dedicated to Sary Warehouse assessment project, where the client wants an app that facilitates main inventory system functions.
 
 The app screens structue is the following:
-                        Transansaction Screen (Main)
-                                    |
-                                    |
-             - - - - - - - - - - - - - - - - - - - - - - - - 
-            |            |                                  |
-            |            |                                  |
-   Items Screen    Transacion Details Screen      New Transaction Screen
-        |                                                   |
-        |                                                   |
-  Add Item Screen                                   Select Item Screen
-                                                            |
-                                                            |
-                                                   Add Transaction Screen
-  
+
+![alt text](https://drive.google.com/file/d/11ToVFwbLZQyZXeKxmOmjO9-dxQ7haRke/view?usp=sharing)
                                                    
                                                    
 to run the app on your local machine, copy the github repo link and create new project on any IDE using that link as a reference, then install flutter (https://docs.flutter.dev/get-started/install).
