@@ -17,9 +17,7 @@ void main() async {
   Hive.registerAdapter(ItemAdapter());
   Hive.registerAdapter(TransactionTypeAdapter());
   transactionBox = await Hive.openBox<Transaction>("transactions");
-
   itemsBox = await Hive.openBox<Item>("items");
-
   runApp(const MyApp());
 }
 
