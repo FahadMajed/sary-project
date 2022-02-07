@@ -21,6 +21,7 @@ class _ItemImagePickerState extends State<ItemImagePicker> {
       source: ImageSource.gallery,
       imageQuality: 50,
       maxWidth: 126,
+      maxHeight: 73,
     );
     setState(() => _pickedImage = File(pickedImageFile!.path));
 
