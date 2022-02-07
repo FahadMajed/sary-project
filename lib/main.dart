@@ -19,45 +19,7 @@ void main() async {
   Hive.registerAdapter(ItemAdapter());
   Hive.registerAdapter(TransactionTypeAdapter());
   transactionBox = await Hive.openBox<Transaction>("transactions");
-  Box<bool> box = await Hive.openBox<bool>("logins");
-
   itemsBox = await Hive.openBox<Item>("items");
-
-  if (box.values.isEmpty) {
-    ByteData bytes1 = await rootBundle.load('images/bar.png');
-    ByteData bytes2 = await rootBundle.load('images/oil.png');
-    await rootBundle.load('images/prin.png').then((value) {
-      //demo purposes
-      Item barbican = Item(
-          id: "bar",
-          name: "Barbican Beer Drink",
-          price: 92.6,
-          sku: "PRO-SA3",
-          description: "320 ml x 6",
-          imagePath: bytes1.buffer.asUint8List());
-
-      Item oil = Item(
-          id: "oil",
-          name: "Afia Oil",
-          price: 105.0,
-          sku: "PRO-SA2",
-          description: "400g x 12",
-          imagePath: bytes2.buffer.asUint8List());
-
-      Item prin = Item(
-          id: "prin",
-          name: "Pringles Potatos",
-          price: 44.6,
-          sku: "PRO-SA1",
-          description: "150GM x 8",
-          imagePath: value.buffer.asUint8List());
-
-      Services().addItem(barbican);
-      Services().addItem(oil);
-      Services().addItem(prin);
-    });
-  }
-  box.put(1, true);
   runApp(const MyApp());
 }
 
