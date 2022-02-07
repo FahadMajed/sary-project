@@ -17,6 +17,7 @@ The app screens structue is the following:
                                                             |
                                                             |
                                                    Add Transaction Screen
+  ------------------------------------------------------------------------
                                                    
                                                    
 to run the app on your local machine, copy the github repo link and create new project on any IDE using that link as a reference, then install flutter (https://docs.flutter.dev/get-started/install).
