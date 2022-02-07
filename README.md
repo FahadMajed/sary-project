@@ -27,18 +27,23 @@ to add an item, tap on the top-right icon on the main screen, then fill out the 
 <img width="564" alt="main scren" src="https://user-images.githubusercontent.com/59338335/152837250-9114f007-1f65-482d-a1ed-8e50a4ff31a5.png">
 
 ## (2) Select Item Screen
-<img width="558" alt="select item" src="https://user-images.githubusercontent.com/59338335/152837330-eaab6aae-89ec-4078-b1cf-72c4f50351ce.png">
+<img width="546" alt="items" src="https://user-images.githubusercontent.com/59338335/152838660-95bd4f7e-51cb-4a77-a2b6-077beca2a301.png">
 
 ## (3) Add Transaction Screen
-<img width="578" alt="add txn 1" src="https://user-images.githubusercontent.com/59338335/152830346-c72a66ae-4a28-4d12-a901-243db4c2d1e9.png">
-<img width="571" alt="add txn 2" src="https://user-images.githubusercontent.com/59338335/152837386-b4f6f834-1015-4c09-b576-13be60901ba0.png">
+<img width="576" alt="add txn" src="https://user-images.githubusercontent.com/59338335/152838702-baa9203a-a4fb-4810-a0e2-d7c55151956f.png">
 
 ## (4) Transaction Details Screen
 <img width="570" alt="txn - details" src="https://user-images.githubusercontent.com/59338335/152837443-79335e19-f7ec-48c2-ac8e-8e9437e0313c.png">
 
 
 ## (5) Main Screen - 2
-<img width="594" alt="main 2" src="https://user-images.githubusercontent.com/59338335/152837503-5c79efe1-361f-4a88-a8a8-58dfb44cadef.png">
+<img width="583" alt="Screen Shot 2022-02-07 at 8 17 20 PM" src="https://user-images.githubusercontent.com/59338335/152838704-88ff2623-67f4-4011-9cc8-3f784e9ca6b5.png">
+
+
+
+* Prefer using iOS since it was the device I was testing at.
+* To run unit test, type `flutter test test/unit_tests.dart`
+
 
 
   
